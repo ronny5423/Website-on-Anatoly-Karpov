@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<script src="https://cdn.tiny.cloud/1/1c2xxh9e8tafpiup54t4adgf2rnw38iql3n4hszwk20vj9aq/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+<script>
+  tinymce.init({
+    selector: "#messageTextArea",
+    plugins: "emoticons",
+    toolbar: "emoticons",
+    toolbar_location: "bottom",
+    menubar: false
+  });
+</script>
+<title>My first HTML website</title>
+</head>
+<body >
+
+<div class="menu"> 
+<a href="#about">About Me</a>
+<a href="#photos">My Photos</a>
+<a href="#playlist">My Playlist</a>
+<a href="#like">Like</a>
+<a href="#qrcoder">QR code</a>
+<a href="#spa">Q&A</a>
+<a href="#contact">Contact Me</a>
+<img src="Images/d33999a8d43e3e3614ff5e7f4cb18a45.jpg" alt="FIDE logo"/>
+</div>
+
+ 
+<br/>
+
+<section id="about" class="section">
+  <p class="labels">About me</p>
+  <br/>
+  <br/>
+ <div class="contentDiv" style="background-color: darkcyan;">
+<p id="aboutMeText">
+  <b>Hello! </b>
+  <br/>
+  My name is Anatoly Karpov and I was a world chess champion.
+  <br/>
+  I was born in May 23rd 1951  in USSR. At the age of 4, I learned to play chess.
+  <br/>
+  At the age of 11, I received a rating of Master Candidate. My chess game was quickly improved thank's to the chess player Mikhail Botvinik.
+  <br/>
+  In 1966, I received Master rating and became the youngest Soviet chess master. In 1969, I won my first world youth chess championship.
+  <br/>
+  In 1970, I received grandMaster rating.
+  <br/>
+  In 1975, I became the world chess champion after defeating Bobby Fischer. In 1985, I lost my title of world chess champion to Gary Kasparov.
+  <br/>
+  Since 2005, I'm involved in Russia's political life.
+  <br/>
+  I like to collect stamps and learn about chess.
+  <br/>
+ </p>
+</div> 
+</section>
+
+<section id="photos" class="section">
+  <p class="labels">My Photos</p> 
+<br/>
+<br/>
+<div class="contentDiv">
+<div class="row">
+    <img src="Images/300px-Euwe_schaakvierkamp,_laatste_ronde_Karpov,_Bestanddeelnr_928-5944.jpg" alt=""/>
+    <img src="Images/595161-46.jpg" alt=""/>
+    <img src="Images/Anatoly_Karpov_(1967).jpg" alt=""/>
+    <img src="Images/download (1).jpg" alt=""/>
+    <img src="Images/download.jpg" alt=""/>
+    <img src="Images/1200px-Interpolisschaaktoernooi_Tilburg_Karpov_aan_zet,_Bestanddeelnr_929-3627.jpg" alt=""/>
+  </div>
+</div>
+</section>
+
+
+<section id="playlist" class="section">
+  <p class="labels">My Playlist</p>
+<br/>
+<br/>
+<div class="contentDiv">
+  <iframe width="100%" height="500px" src="https://www.youtube.com/embed/zwwd3YLT7DE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</section>
+
+
+<section id="like" class="section">
+  <p class="labels">Give Me A Like</p>
+<br/>
+<br/>
+<div class="contentDiv">
+  <div class="like-btn">
+  <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FofficialKarpov&width=108&layout=button_count&action=like&size=large&share=false&height=21&appId" width="108" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+</div>
+</div>
+</section>
+
+
+<section id="qrcoder" class="section">
+  <p class="labels">Scan My Code</p>
+<br/>
+<div class="contentDiv">
+<img src="qrcode.png"  alt="qr code" style="width: 60%; margin-right: auto; margin-left: auto; display: block;"/>
+</div>
+<br/>
+</section>
+
+
+<section id="spa" class="section">
+  <p class="labels">Ans</p>
+<br/>
+<div class="contentDiv">
+<p class="answerLabels"> Three main differences between the webs:</p>
+<br/>
+<div  style="overflow-x: auto;">
+<table class="answerTables">
+  <tr>
+    <td>Web 1.0</td>
+    <td>Web 2.0</td>
+    <td>Web 3.0</td>
+  </tr>
+  <tr class="hoverableRow">
+    <td>Read only web</td>
+    <td>Read and write web</td>
+    <td>Read, write and execute web</td>
+  </tr>
+  <tr class="hoverableRow">
+    <td>Designed webpages, sometimes with flash</td>
+    <td>Two way webpages, wikis, video, podcasts</td>
+    <td>3D portals, games, virtual enviroments</td>
+  </tr>
+  <tr class="hoverableRow">
+    <td>Companies publish content that other people consume(for example CNN)</td>
+    <td>People publish content that other people consume(blogs)</td>
+    <td>People build applications that other people can iteract with, companies build platforms allowing people publish services
+       by leveraging the connection between people or special cotent(like Facebook,Google Maps)</td>
+  </tr>
+</table>
+</div>
+<br/>
+<p class="answerLabels">
+  Use case example: Displaying Bezeq website
+</p>
+<div style="overflow-x: auto;" >
+<table class="answerTables">
+  <tr>
+    <td>Web 1.0</td>
+    <td>Web 2.0</td>
+    <td>Web 3.0</td>
+  </tr>
+  <tr class="hoverableRow">
+    <td>Static website which shows only the packages they sell, list of stores and contact information</td>
+    <td>Dynamic website that involves new user input features like chat with costumer service</td>
+    <td>Dynamic website that involves AI technologies like chatboots and involves 3D animations</td>
+  </tr>
+</table>
+</div>
+</div>
+</section>
+
+
+<section id="contact" class="section">
+  <p class="labels"> Contact Me</p>
+  <div class="contentDiv">
+<form action="mailto:ronny54@gmail.com" method="post" enctype="text/plain" style="background-color: black;">
+  <label for="email" style="margin-right: 5px; margin-bottom: 5px; font-weight: bold; color: wheat;">Please enter your email </label>
+  <input type="email" name="email" id="email">
+  <br/>
+  <br/>
+  <textarea name="message" id="messageTextArea" style="width: 100%;" placeholder="Please enter your message..."></textarea>
+  <br/>
+  <div class="mailButtons">
+  <input class="mailButton" type="submit" value="Submit"/>
+  <input class="mailButton" type="reset" value="Reset"/>
+</div>
+</form>
+</div>
+</section>
+
+
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+ 
+</body>
+</html>

@@ -1,0 +1,164 @@
+.menu
+{
+	position: fixed;
+	width: 100%;
+	height: 4%;
+	background-image: linear-gradient(to bottom right,red,yellow);
+	z-index:2;
+	}
+.menu a {
+	float: left;
+	display: inline;
+	color: white;
+	padding-right: 15px;
+	font-weight: bolder;
+	font-family: 'Courier New', Courier, monospace;
+	height: 100%;
+	font-size: 1.5vmax;
+	text-align: left;
+}
+
+.menu img{
+	height: 100%;
+	width: 15%;
+	float: right;
+	margin-right: 1%;
+}
+
+.menu a:hover{
+	background-color: black;
+}
+
+
+p.labels{
+	text-align: center;
+	background-image: linear-gradient(180deg,red,white);
+	font-weight: bold;
+	padding: 1%;
+	outline-style: dotted;
+	text-decoration: underline;
+	font-size: 2vmax ;
+
+	
+}
+.row{
+	height: inherit;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: stretch;
+}
+.row img{
+	float: left;
+	margin: 5px;
+	width: 15%;
+	height: auto;
+	flex-grow: 1;
+	border-radius: 35%;
+	opacity: 0.7;
+}
+
+.row img:hover{
+	opacity: 1.0;
+}
+
+@media (max-width:800px){
+	.row{
+		flex-direction: column;
+	}
+	.row img{
+		width: 75%;
+		height: 15%;
+	}
+	.menu a{
+		font-size: 1.5vw;
+	}
+	
+}
+section{
+	margin-bottom: 1%;
+	padding-top: 3%;
+	width: 100%;
+}
+
+body{
+	background-image:url(Images/1_FVfdYFOkVlf2lPswre6iXg.jpeg) ;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.mailButton{
+	background-color: grey;
+	padding: 10px;
+	font-weight: bold;
+	color: white;
+	float: left;
+	margin-right: 0.5%;
+}
+.mailButton:hover{
+	background-color:black;
+}
+
+.mailButtons{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+p#aboutMeText{
+	font-size: 1.75vmax;
+	font-style: italic;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+	color:white;
+}
+
+table.answerTables,.answerTables td,.answerTables th{
+	border: 1px solid white;
+}
+
+table.answerTables tr{
+	background-color: rgb(9, 224, 56);
+	font-size: large;
+
+}
+table.answerTables tr:first-child {
+	background-color: chocolate;
+	font-weight: bolder;
+	
+}
+table.answerTables{
+	border-collapse: collapse;
+	width: 100%;
+	text-align: left;
+	color: white;
+}
+
+.hoverableRow:hover{
+	background-color: brown;
+	color: wheat;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+	
+p.answerLabels{
+	font-weight: bold;
+	font-style: oblique;
+	text-decoration: underline;
+	font-size: 1.85vmax;
+	text-align: center;
+	color: darkcyan;
+	background-color: darkgray;
+}
+
+.contentDiv{
+	margin-left: 25%;
+	margin-right: 25%;
+	}
+
+	.like-btn{
+		text-align: center;
+		float: center;
+	}
